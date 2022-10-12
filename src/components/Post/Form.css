@@ -1,0 +1,29 @@
+.formbox{
+    width: 600px;
+    height: 250px;
+   
+    margin-left: 25%;
+    border: 2px solid black;
+}
+
+.box1{
+    margin-left: 200px;
+    padding: 2%;
+    display: flex;
+}
+
+.box2{
+ display: flex;
+ gap:25px;
+ margin-left: 100px;
+}
+
+.box3{
+    margin-left: 100px;
+    margin-top: 2%;
+}
+
+button{
+    margin-left: 230px;
+    margin-top: 5%;
+}

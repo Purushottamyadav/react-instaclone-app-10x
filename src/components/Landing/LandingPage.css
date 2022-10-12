@@ -1,0 +1,40 @@
+
+
+.containerL{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 5% 15% 5% 15%;
+}
+
+.btn{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+h1{
+ width: 346px;
+height: 71px;
+text-align: left;
+font: normal normal normal 44px/71px Palatino;
+letter-spacing: 0px;
+color: #006238;
+opacity: 1;
+margin-left: 25%;
+margin-top: 40%;
+}
+
+.btn button{
+    width: 120px;
+height: 54px;
+margin-left: 35%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 3px solid #006238;
+border-radius: 16px;
+opacity: 1;
+cursor: pointer;
+color: #006238;
+font-size: 20px;
+}

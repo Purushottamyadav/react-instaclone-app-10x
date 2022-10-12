@@ -1,0 +1,87 @@
+.Card {
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.header {
+  display: flex;
+  height: 15%;
+  background-color: white;
+}
+
+.dots {
+  margin-left: 60%;
+  font-size: 50px;
+  margin-top: -5%;
+}
+
+.namel {
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.namel p {
+  margin: 0%;
+  text-align: left;
+  font: normal normal normal 15px/29px Verdana;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  margin-top: -7px;
+}
+.namel h4 {
+  margin: 0%;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.contain {
+  height: 58%;
+  background-color: white;
+}
+
+.contain img {
+
+    width: 100%;
+    height: 100%;
+}
+.f1{
+    display: flex;
+}
+.f1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.f1 h3{
+    margin-left: 50%;
+   
+}
+
+.f2 h2{
+    text-align: left;
+font: normal normal normal 15px/24px Verdana;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+margin-left: 5%;
+margin-top: -3%;
+}
+
+.f3 p{
+    text-align: left;
+font: normal normal bold 20px/34px Helvetica;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 5%;
+margin-top: -1%;
+}
