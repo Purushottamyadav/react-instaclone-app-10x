@@ -37,36 +37,12 @@ function Form() {
      })
     
  },[url])
-
- 
-//   const postDetails = ()=>{ 
-//     const data = new FormData()
-//     data.append("file",image)
-//     data.append("upload_preset","instaclone")
-//     data.append("cloud_name","dkjn33zdf")
-//     fetch("https://api.cloudinary.com/v1_1/dkjn33zdf/image/upload",{
-//         method:"post",
-//         body:data
-//     })
-//     .then(res=>res.json())
-//     .then(data=>{
-//        console.log(data.url)
-//       //  setUrl(data.url)
-//     })
-//     .catch(err=>{
-//        console.log("hello")
-//         console.log(err)
-//     })
-
- 
-// }
-  
   
   return (
     <>
     <NavBar />
     <div className='container'>
-           <form action="https://node-api-instaclone-10x.herokuapp.com/createpost" method='post'>
+           <form action="https://instaclone-10x.onrender.com/createpost" method='post'>
            {/* <input type="file" name="image"  onChange={(e)=>setImage(e.target.files[0])}  /> */}
            <FileBase64
           type="file"

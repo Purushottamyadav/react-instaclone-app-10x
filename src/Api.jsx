@@ -7,7 +7,7 @@ function Api() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://node-api-instaclone-10x.herokuapp.com/all")
+    fetch("https://instaclone-10x.onrender.com/all")
       .then((res) => res.json())
       .then((result) => {
         console.log(result.data);

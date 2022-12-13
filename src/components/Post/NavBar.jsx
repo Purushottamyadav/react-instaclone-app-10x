@@ -6,7 +6,9 @@ function NavBar() {
   return (
     <div className='containerNav'>
         <div className='logo'>
+        <Link to="/post">
         <img src="./images/headerInstagram.png" alt="" width={"200px"}/>
+        </Link>
         </div>
         <div className='camera'>
             <Link to="/createpost">

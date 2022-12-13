@@ -14,7 +14,7 @@ const Form = () => {
   });
   const handleUserPost = () => {
     axios({
-      url:"https://node-api-instaclone-10x.herokuapp.com/new",
+      url:"https://instaclone-10x.onrender.com/new",
       method: "POST",
       headers: {},
       data: newPostState,
